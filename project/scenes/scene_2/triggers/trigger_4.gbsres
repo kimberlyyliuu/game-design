@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "f388e4fb-2228-4a49-b64b-53b79c814451",
+  "name": "",
+  "prefabId": "",
+  "x": 14,
+  "y": 12,
+  "symbol": "trigger_4",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Collect all 4\nhearts to pass\nlevel"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "caff5dc6-9e53-4742-a51d-f5d581058d24"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

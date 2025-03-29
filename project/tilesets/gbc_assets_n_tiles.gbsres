@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "9cce7eef-5978-407e-bc6b-c7a5a86bbc1b",
+  "name": "GBC_assets_n_tiles",
+  "symbol": "tileset_gbc_assets_n_tiles",
+  "width": 8,
+  "height": 8,
+  "imageWidth": 64,
+  "imageHeight": 64,
+  "filename": "GBC_assets_n_tiles.png"
+}

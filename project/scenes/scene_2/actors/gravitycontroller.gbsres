@@ -1,0 +1,222 @@
+{
+  "_resourceType": "actor",
+  "id": "eac15344-6afc-44c3-9a25-574a73a572f6",
+  "name": "GravityController",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "121ca7a7-2e59-4b92-8a9d-d7cbd942c3b8",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_5",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "c683f1fd-3bdb-414b-8b1e-e07c3d827f49"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false,
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_INPUT",
+            "args": {
+              "input": [
+                "right"
+              ],
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                        "args": {
+                          "actorId": "player",
+                          "x": {
+                            "type": "number",
+                            "value": 1
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "moveType": "horizontal",
+                          "useCollisions": true
+                        },
+                        "id": "afccb17a-43a5-47d8-9d95-f9af15af7c80"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "c7f8cda3-1f6b-491d-8fe6-94f780fc0840"
+                }
+              ],
+              "false": []
+            },
+            "id": "4522e230-f2af-4dd8-b58a-20e429cfadf3"
+          },
+          {
+            "command": "EVENT_IF_INPUT",
+            "args": {
+              "input": [
+                "left"
+              ],
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                        "args": {
+                          "actorId": "player",
+                          "x": {
+                            "type": "number",
+                            "value": -1
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "moveType": "horizontal",
+                          "useCollisions": true
+                        },
+                        "id": "6cd1f820-5c8c-4aef-8c30-b3b3fc7b686d"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "da70292a-e76a-4a8a-b7c4-0c4e32c475b0"
+                }
+              ],
+              "false": []
+            },
+            "id": "f139af45-1f75-498f-bb3f-bb99e42c3324"
+          },
+          {
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "y": {
+                "type": "add",
+                "valueA": {
+                  "type": "property",
+                  "target": "player",
+                  "property": "ypos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                  "args": {
+                    "actorId": "player",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "moveType": "vertical",
+                    "useCollisions": true
+                  },
+                  "id": "60c2769c-f7f9-4937-bcd8-db7598e6df48"
+                }
+              ]
+            },
+            "id": "852e4772-c33c-47e8-ab03-8c7db6f4f280"
+          }
+        ],
+        "false": []
+      },
+      "id": "ac29b47c-f08e-485a-babd-34a8cd06df53"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 0,
+  "y": 14,
+  "_index": 4
+}

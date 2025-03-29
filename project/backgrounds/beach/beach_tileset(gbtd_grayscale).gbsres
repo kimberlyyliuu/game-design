@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "86a69a5b-e03d-4c41-972b-272f67fc1e45",
+  "name": "beach/beach_tileset(GBTD_grayscale)",
+  "symbol": "bg_beach_beach_tileset_gbtd",
+  "width": 22,
+  "height": 18,
+  "imageWidth": 176,
+  "imageHeight": 144,
+  "filename": "beach/beach_tileset(GBTD_grayscale).png",
+  "tileColors": ""
+}

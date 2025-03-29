@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "2134c261-99e5-4c44-9fbb-8f98b93d04d1",
+  "name": "sci_fi/sci_fi_tileset",
+  "symbol": "bg_sci_fi_sci_fi_tileset",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "sci_fi/sci_fi_tileset.png",
+  "tileColors": ""
+}

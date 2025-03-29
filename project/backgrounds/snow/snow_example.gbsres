@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "cc0bd83a-505b-4da3-b3bb-102c0b4a9903",
+  "name": "snow/snow_example",
+  "symbol": "bg_snow_snow_example",
+  "width": 58,
+  "height": 18,
+  "imageWidth": 464,
+  "imageHeight": 144,
+  "filename": "snow/snow_example.png",
+  "tileColors": ""
+}

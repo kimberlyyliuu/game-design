@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "2aa3a659-83a6-4d84-89dd-74535f4b68d7",
+  "name": "underwater/underwater_tileset(GBTD_grayscale)",
+  "symbol": "bg_underwater_underwater_ti_0",
+  "width": 22,
+  "height": 16,
+  "imageWidth": 176,
+  "imageHeight": 128,
+  "filename": "underwater/underwater_tileset(GBTD_grayscale).png",
+  "tileColors": ""
+}

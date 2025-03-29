@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "0adaf538-6eb3-408f-84fb-d06de01fdc59",
+  "name": "desert/desert_tileset(GBTD_grayscale)",
+  "symbol": "bg_desert_desert_tileset_gb",
+  "width": 22,
+  "height": 18,
+  "imageWidth": 176,
+  "imageHeight": 144,
+  "filename": "desert/desert_tileset(GBTD_grayscale).png",
+  "tileColors": ""
+}

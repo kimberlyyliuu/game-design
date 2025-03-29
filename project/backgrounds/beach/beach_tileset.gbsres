@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a5896e68-703a-430f-9a58-5da928c176cd",
+  "name": "beach/beach_tileset",
+  "symbol": "bg_beach_beach_tileset",
+  "width": 22,
+  "height": 18,
+  "imageWidth": 176,
+  "imageHeight": 144,
+  "filename": "beach/beach_tileset.png",
+  "tileColors": ""
+}

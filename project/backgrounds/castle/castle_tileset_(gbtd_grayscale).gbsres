@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "28cf43d3-f4fb-41bd-b240-a47bf925fa64",
+  "name": "castle/castle_tileset (GBTD_grayscale)",
+  "symbol": "bg_castle_castle_tileset_gb",
+  "width": 22,
+  "height": 16,
+  "imageWidth": 176,
+  "imageHeight": 128,
+  "filename": "castle/castle_tileset (GBTD_grayscale).png",
+  "tileColors": ""
+}

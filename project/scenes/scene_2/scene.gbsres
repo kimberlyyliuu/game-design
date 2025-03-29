@@ -1,0 +1,299 @@
+{
+  "_resourceType": "scene",
+  "id": "3f2307ae-fec9-46aa-9c50-dfd014fee7dd",
+  "_index": 0,
+  "name": "Scene 2",
+  "backgroundId": "a7de3217-9acc-45ef-9fec-637181579939",
+  "tilesetId": "",
+  "width": 58,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "002e+10a+00!10!002e+10a+00!10!0038+102+0038+102+0f8+0030+102+0f8+002+0f6+0042+0f6+0034+0f6+001a+102+006+0f2+008+0f4+102+0fa+004+0f2+0012+102+006+0f2+00c+102+002+0f6+006+0f2+0028+102+0014+0f2+003+0f8+0017+102+0014+0f2+003+0f8+003+0fa+00a+102+0012+0f4+00e+0fa+00a+102+0012+0f4+001a+0f16+002+0fc+0016+0f16+002+0fc+005c+0f2+0020+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 336,
+  "y": 104,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "up"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false,
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": false
+                  },
+                  "id": "8ec0bb84-7bdd-4eaa-9f8f-bb3ce7f475b1"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": -3
+                    },
+                    "moveType": "vertical",
+                    "useCollisions": true,
+                    "__collapse": false
+                  },
+                  "id": "bc726f0e-adb4-4c77-8b24-38dea3f23dde"
+                },
+                {
+                  "command": "EVENT_IF_INPUT",
+                  "args": {
+                    "input": [
+                      "right"
+                    ],
+                    "__collapseElse": false,
+                    "__comment": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                        "args": {
+                          "actorId": "$self$",
+                          "x": {
+                            "type": "number",
+                            "value": 2
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": -3
+                          },
+                          "moveType": "diagonal",
+                          "useCollisions": true
+                        },
+                        "id": "ddf1fd2c-1d8c-4388-89dd-b0870a2dfdb9"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_IF_INPUT",
+                        "args": {
+                          "input": [
+                            "left"
+                          ],
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                              "args": {
+                                "actorId": "$self$",
+                                "x": {
+                                  "type": "number",
+                                  "value": -2
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": -3
+                                },
+                                "moveType": "diagonal",
+                                "useCollisions": true
+                              },
+                              "id": "9490af25-6ef1-4780-a5d5-9a6a08e27b5e"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                              "args": {
+                                "actorId": "$self$",
+                                "x": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": -3
+                                },
+                                "moveType": "vertical",
+                                "useCollisions": true,
+                                "__collapse": false
+                              },
+                              "id": "12e3a690-ee05-4af5-8d77-b9a7c65205f1"
+                            }
+                          ]
+                        },
+                        "id": "ceb8e321-d613-4353-8490-2ca95ab510b3"
+                      }
+                    ]
+                  },
+                  "id": "58f4716a-f12c-47b5-a04b-fbb70ed47887"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.1,
+                    "frames": 30
+                  },
+                  "id": "14859c36-d1c0-4fc1-a720-2b609056aa13"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": -1
+                    },
+                    "moveType": "vertical",
+                    "useCollisions": true,
+                    "__collapse": true,
+                    "__comment": true
+                  },
+                  "id": "bb90be3e-883b-48ad-bf79-e5e90809415b"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "8e635f26-23e2-4840-ae38-7e7b6c267aea"
+                }
+              ],
+              "false": []
+            },
+            "id": "601ee6ed-ea7e-44aa-a60a-b053e029247a"
+          }
+        ]
+      },
+      "id": "fcea6047-613f-4518-ae91-03c82bf8efe1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hi there! \nWelcome to our \ngame\nMeet Toby"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": 3,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 2,
+        "closeDelayFrames": 30,
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "b66d7a64-78b1-4c72-97a5-54633425c4e6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Your controls are\nup, down, left, \nright arrow keys"
+        ],
+        "__section": "presets",
+        "avatarId": "",
+        "minHeight": 6,
+        "maxHeight": 8,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": 4,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 2,
+        "closeDelayFrames": 30,
+        "__comment": true
+      },
+      "id": "8d9074bd-83f5-4495-93d1-b9972b9730b1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Toby is a bit shy..\nPlease press ONE\nbutton at a time. "
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": 4,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 3,
+        "closeDelayFrames": 30,
+        "__comment": true
+      },
+      "id": "1b9aa756-45c2-4311-9071-933eeebfef42"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "a76b9fce-779a-4f6c-916c-9ebe4bcabd9e",
+  "autoFadeEventCollapse": true
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "cf6508da-d090-4215-83cd-829e190d761a",
+  "name": "snow/snow_tileset",
+  "symbol": "bg_snow_snow_tileset",
+  "width": 22,
+  "height": 18,
+  "imageWidth": 176,
+  "imageHeight": 144,
+  "filename": "snow/snow_tileset.png",
+  "tileColors": ""
+}

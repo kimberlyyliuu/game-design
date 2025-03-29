@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "66125660-0208-41a6-89ce-5ba0907fc18e",
+  "name": "cave/cave_tileset(GBTD_grayscale)",
+  "symbol": "bg_cave_cave_tileset_gbtd_g",
+  "width": 22,
+  "height": 18,
+  "imageWidth": 176,
+  "imageHeight": 144,
+  "filename": "cave/cave_tileset(GBTD_grayscale).png",
+  "tileColors": ""
+}

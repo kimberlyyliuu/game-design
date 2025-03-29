@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "99b6ecb2-03eb-4bd0-a3f8-9fa3914dbe35",
+  "name": "snow/snow_tileset(GBTD_grayscale)",
+  "symbol": "bg_snow_snow_tileset_gbtd_g",
+  "width": 22,
+  "height": 18,
+  "imageWidth": 176,
+  "imageHeight": 144,
+  "filename": "snow/snow_tileset(GBTD_grayscale).png",
+  "tileColors": ""
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "301d91a4-95d5-4902-aaa5-f636fc0bdc16",
+  "name": "desert/desert_tileset",
+  "symbol": "bg_desert_desert_tileset",
+  "width": 22,
+  "height": 18,
+  "imageWidth": 176,
+  "imageHeight": 144,
+  "filename": "desert/desert_tileset.png",
+  "tileColors": ""
+}

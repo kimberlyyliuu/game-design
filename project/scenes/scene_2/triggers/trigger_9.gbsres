@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "1c16b523-d14b-4a48-8e78-df9392d312d0",
+  "name": "",
+  "prefabId": "",
+  "x": 51,
+  "y": 8,
+  "symbol": "trigger_10",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Congrats! You \nfinished the level"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "39394ea2-3717-4ec0-9396-f815e90766fa"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 8
+}

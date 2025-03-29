@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "b6562580-50f3-4a5f-87eb-9ab3554cae70",
+  "name": "GB_assets_n_tiles",
+  "symbol": "tileset_gb_assets_n_tiles",
+  "width": 8,
+  "height": 8,
+  "imageWidth": 64,
+  "imageHeight": 64,
+  "filename": "GB_assets_n_tiles.png"
+}
