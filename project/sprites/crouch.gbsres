@@ -2,12 +2,12 @@
   "_resourceType": "sprite",
   "id": "60e923ff-992c-4c41-9407-e1d9317fab90",
   "name": "crouch",
-  "width": 16,
-  "height": 16,
-  "filename": "crouch.png",
   "symbol": "sprite_crouch",
   "numFrames": 1,
+  "filename": "crouch.png",
   "checksum": "82f22e9ce5b9d0626e1008d2eecd34891c7a64d2",
+  "width": 16,
+  "height": 16,
   "states": [
     {
       "id": "a99dfe87-17f1-4eca-a7ba-3d545b45bc4e",

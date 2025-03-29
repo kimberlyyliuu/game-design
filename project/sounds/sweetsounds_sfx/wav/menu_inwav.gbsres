@@ -2,7 +2,7 @@
   "_resourceType": "sound",
   "id": "2b5c2ea3-1a9a-49fa-9cbe-ae7d35dc6c4b",
   "name": "SweetSounds_SFX/WAV/Menu_In.wav",
-  "symbol": "sound_sweetsounds_sfx_wav_m_1",
+  "symbol": "sound_sweetsounds_sfx_wav_m",
   "filename": "SweetSounds_SFX/WAV/Menu_In.wav",
   "type": "wav"
 }

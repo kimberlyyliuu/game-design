@@ -2,11 +2,12 @@
   "_resourceType": "background",
   "id": "d98a7a49-1bfc-4c2c-a8fb-68b9b700b35d",
   "name": "grassland/grassland_tileset(GBTD_grayscale)",
-  "symbol": "bg_grassland_grassland_tile",
+  "symbol": "bg_grassland_grassland_tile_0",
   "width": 18,
   "height": 18,
   "imageWidth": 144,
   "imageHeight": 144,
   "filename": "grassland/grassland_tileset(GBTD_grayscale).png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

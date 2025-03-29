@@ -2,11 +2,12 @@
   "_resourceType": "background",
   "id": "a7de3217-9acc-45ef-9fec-637181579939",
   "name": "construction_site/construction_site_example",
-  "symbol": "bg_construction_site_constr_0",
+  "symbol": "bg_construction_site_constr",
   "width": 58,
   "height": 18,
   "imageWidth": 464,
   "imageHeight": 144,
   "filename": "construction_site/construction_site_example.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

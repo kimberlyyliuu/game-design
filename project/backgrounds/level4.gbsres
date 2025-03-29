@@ -8,5 +8,6 @@
   "imageWidth": 256,
   "imageHeight": 144,
   "filename": "Level4.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

@@ -8,5 +8,6 @@
   "imageWidth": 464,
   "imageHeight": 144,
   "filename": "cave/cave_example.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

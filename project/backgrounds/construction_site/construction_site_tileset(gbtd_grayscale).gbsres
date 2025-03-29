@@ -2,11 +2,12 @@
   "_resourceType": "background",
   "id": "88eb10a1-a826-49a8-91ec-ebb924c19d41",
   "name": "construction_site/construction_site_tileset(GBTD_grayscale)",
-  "symbol": "bg_construction_site_constr",
+  "symbol": "bg_construction_site_constr_1",
   "width": 16,
   "height": 18,
   "imageWidth": 128,
   "imageHeight": 144,
   "filename": "construction_site/construction_site_tileset(GBTD_grayscale).png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

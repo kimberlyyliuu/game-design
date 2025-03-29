@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "sci_fi/sci_fi_tileset.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

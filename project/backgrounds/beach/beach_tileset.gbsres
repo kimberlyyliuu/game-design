@@ -8,5 +8,6 @@
   "imageWidth": 176,
   "imageHeight": 144,
   "filename": "beach/beach_tileset.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

@@ -4,11 +4,11 @@
   "name": "",
   "prefabId": "",
   "x": 25,
-  "y": 4,
+  "y": 3,
   "symbol": "trigger_7",
   "prefabScriptOverrides": {},
   "width": 4,
-  "height": 2,
+  "height": 3,
   "script": [
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",

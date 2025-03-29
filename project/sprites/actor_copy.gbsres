@@ -2,12 +2,12 @@
   "_resourceType": "sprite",
   "id": "121ca7a7-2e59-4b92-8a9d-d7cbd942c3b8",
   "name": "actor copy",
-  "width": 48,
-  "height": 16,
-  "filename": "actor copy.png",
   "symbol": "sprite_actor_copy",
   "numFrames": 3,
+  "filename": "actor copy.png",
   "checksum": "8646d62a30fe76f9e39e3dbdb23aab0182a33146",
+  "width": 48,
+  "height": 16,
   "states": [
     {
       "id": "0af2bca5-5131-4bce-a746-4f52388fad1a",

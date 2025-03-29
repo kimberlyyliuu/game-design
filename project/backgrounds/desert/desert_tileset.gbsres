@@ -8,5 +8,6 @@
   "imageWidth": 176,
   "imageHeight": 144,
   "filename": "desert/desert_tileset.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
