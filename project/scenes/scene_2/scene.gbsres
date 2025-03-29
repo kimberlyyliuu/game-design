@@ -39,7 +39,7 @@
         "closeDelayTime": 2,
         "closeDelayFrames": 30,
         "__collapse": true,
-        "__comment": true
+        "__comment": false
       },
       "id": "b66d7a64-78b1-4c72-97a5-54633425c4e6"
     },
@@ -65,7 +65,7 @@
         "closeButton": "a",
         "closeDelayTime": 2,
         "closeDelayFrames": 30,
-        "__comment": true
+        "__comment": false
       },
       "id": "8d9074bd-83f5-4495-93d1-b9972b9730b1"
     },
@@ -91,7 +91,7 @@
         "closeButton": "a",
         "closeDelayTime": 3,
         "closeDelayFrames": 30,
-        "__comment": true
+        "__comment": false
       },
       "id": "1b9aa756-45c2-4311-9071-933eeebfef42"
     },
