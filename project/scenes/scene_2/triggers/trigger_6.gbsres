@@ -13,7 +13,7 @@
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "type": "da21aa48-20da-4b42-a8c9-b4290e5a9206",
+        "type": "beep",
         "priority": "medium",
         "pitch": 4,
         "frequency": 200,
